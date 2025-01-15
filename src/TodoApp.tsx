@@ -50,7 +50,7 @@ const TodoApp = () => {
                 value={newTodo}
                 onChange={(e) => setnewTodo(e.target.value)}
             />
-            <button onClick={addTodo}>Add task</button>
+            <button onClick={addTodo}>Add new task</button>
                 <ul>
                     {todos.map((todo) => (
                         <li key={todo.id}>
