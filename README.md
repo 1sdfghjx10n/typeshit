@@ -1,3 +1,10 @@
+Practicing Typescript instead of JavaScript teehee
+
+First project is a simple To Do App that I will use for my sem 1 2025
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
