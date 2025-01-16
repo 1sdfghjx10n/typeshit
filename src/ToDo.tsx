@@ -20,14 +20,21 @@ type Task = {
         return (
             <div>
                 <h1>My Tasks</h1>
+                <label htmlFor="task-input">New Task</label>
+                <input id="task-input" >
+
+                </input>
                 <ul>
                     {tasks.map((task) => (
                     <li key={task.id}>
-                        {task.title} {task.isCompleted ? '✅' : '❌'}
+                        {task.title}
                     </li>
                     ))}
                 </ul>
             </div>
-        );
+            );
+        }
+
+
 
 export default ToDo;
