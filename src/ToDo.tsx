@@ -1,3 +1,5 @@
+import React from 'react';
+
 type Priority = 'p1'|'p2'|'p3';
 
 type Task = {
@@ -8,20 +10,17 @@ type Task = {
     };
 
     function ToDo() {
-        const tasks: Task[] = [
-            {
-              id: 1,
-              title: 'Learn React',
-              isCompleted: true,
-              priority: 'p1',
-            },
-          ];
+        const [tasks, setTasks] = React.useState<Task[]>([]);
+        const [taskName, setTaskName] = React.useState('');
 
         return (
             <div>
                 <h1>My Tasks</h1>
                 <label htmlFor="task-input">New Task</label>
-                <input id="task-input" >
+                <input 
+                value={taskName}
+                onChange={(e) => setTaskName(e.target.value)}
+                id="task-input" >
 
                 </input>
                 <ul>
