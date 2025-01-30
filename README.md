@@ -2,8 +2,11 @@ Practicing Typescript instead of JavaScript teehee
 
 First project is a simple To Do App that I will use for my sem 1 2025
 
+15/01/2025
 mooyo ookeoyoboaorood oioso ooooooogooing nbrokeno for soeomo oroeasono oonowoo oOO:/o
 
+30/01/2025
+keyboard fixed :) will think of structure before starting code
 
 
 

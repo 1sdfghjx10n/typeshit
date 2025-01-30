@@ -23,6 +23,18 @@ type Task = {
                 id="task-input" >
 
                 </input>
+                <button onClick={() => {
+                    const newTask: Task = {
+                        id: tasks.length + 1,
+                        title: taskName,
+                        isCompleted: false,
+                        priority: 'p3'
+                    };
+                    setTasks([...tasks, newTask]);
+                    setTaskName('');
+                }}>
+                    Add Task
+                </button>
                 <ul>
                     {tasks.map((task) => (
                     <li key={task.id}>
